@@ -1,0 +1,21 @@
+@import url("lib/styles/home.css");
+
+:root{
+    /*Cores de fundo*/
+    --corDeFundoDarkMode: #0A192F;
+    --corDeFundoDefaultMode: #FFFFFF;
+
+    /*Cores da fonte*/
+    --corDaFonteDefault: #0A192F;
+    --corFonteDestaque: #64FFDA;
+    --corFonteClara: #8892B0;
+    
+    /*Fonte padrao*/
+    --fontePadrao: 'Poppins', sans-serif;
+}
+
+body{
+    background: var(--corDeFundoDarkMode);
+    font-family: var(--fontePadrao);
+    font-size: 16px;
+}
