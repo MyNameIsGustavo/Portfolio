@@ -1,0 +1,54 @@
+.conteudo{
+    overflow: hidden;
+}
+
+.descricao-apresentacao{
+    text-align: justify;
+}
+
+.imagem-ilustrativa{
+    display: block;
+    margin: 0em auto;
+}
+
+.botao-secundario{
+    width: auto;
+}
+
+@media screen and (max-width: 280px) {
+    .frasePrincipal{
+        font-size: 25px;
+    }
+
+    .descricao, .container-botao{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .frasePrincipal{
+        font-size: 32px;
+    }
+
+    .descricao{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .frasePrincipal{
+        font-size: 70px;
+    }
+    .apresentacao, .descricao{
+        font-size: 25px;
+    }
+
+    .container-botao{
+        width: 35%;
+    }
+
+    .imagem-ilustrativa{
+        width: 350px;
+        height: 350px;
+    }
+}
