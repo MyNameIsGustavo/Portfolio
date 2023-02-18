@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="My portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/flaticon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -12,28 +13,62 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <title>Portfólio | Gustavo Rocha.</title>
 </head>
 <body>
+    <!--Home-->
     <section class="conteudo">
         <div class="espaco-conteudo" id="conteudo-primeiraPagina">
             <p class="apresentacao">Hey, my name is</p>
             <h1 class="frasePrincipal">Gustavo Rocha.</h1>
             <h2 class="frasePrincipal subtitulo">I like to build cool tech things.</h2>
             <p class="descricao">I'm a <strong>Systems Analyst and Developer</strong> specialized in the Software segment. Currently, I'm focused on Web and Mobile development.</p>
-            <a href="#link-segundaPagina" class="container-botao">Who i'm?</a>
+            <a href="https://www.linkedin.com/in/gustavo-rocha-welcometomyprofile/" class="container-botao">My LinkedIn</a>
         </div>
     </section>
 
+    <!--Presentation-->
     <section class="conteudo">
         <div class="espaco-conteudo" id="link-segundaPagina" data-aos="fade-left">
             <h2 class="frasePrincipal">Hi, everybody!</h2>
             <p class="descricao-apresentacao descricao">My name is Gustavo Rocha and i'm 20 years old. Currently, i'm a student at FATEC Sorocaba - José Crespo Gonzales, but i graduated in Mechatronics at ETEC Rubens de Faria e Souza in 2021. I've always been a enthusiast by disruptive technologies, development <strong>WEB</strong> and <strong>Mobile</strong>.</p>
             <p class="descricao-apresentacao descricao">In my spare time I like to do sports and develop my own projects related to technology. My main skills are focused on Front-end with <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong> and <strong>React JS</strong>. But I also like to use <strong>Typescript</strong>, <strong>Node JS</strong> and <strong>React Native</strong>.</p>
             <img src="img/imagem-ilustrativa.svg" width="230px" height="230px" class="imagem-ilustrativa" alt="imagem ilustrativa de um desenvolvedor">
-            <a href="https://github.com/MyNameIsGustavo" class="botao-secundario container-botao">See my GitHub.</a>
+            <a href="assets/CV.pdf" download="GustavoRocha_CV" class="botao-secundario container-botao">See my professional CV.</a>
         </div>
     </section>
+
+    <!--Projects-->
+    <section class="conteudo">
+        <div class="espaco-conteudo" id="link-terceiraPagina" data-aos="fade-left">
+            <h2 class="titulo-projeto frasePrincipal">Projects</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/ClockStudy.png" class="imagens-slide"  alt="banner de em breve.">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/CRUD-FATEC.png" class="imagens-slide" alt="banner de em breve.">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/New projects cyan.png" class="imagens-slide"  alt="banner de em breve.">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/New projects green.png" class="imagens-slide"  alt="banner de em breve.">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/New projects purple.png" class="imagens-slide"  alt="banner de em breve.">
+                    </div>
+                </div>
+            </div>
+            <p class="descricao-swiper descricao">Click on the image to go to the repository.</p>
+            <p class="descricao-projeto descricao-apresentacao descricao">My projects are all available on my GitHub. Among the projects, there are projects developed <strong>individually</strong> and in <strong>groups</strong>.</p>
+            <a href="https://github.com/MyNameIsGustavo" class="botao-projetos botao-secundario container-botao">See my GitHub.</a>
+        </div>
+    </section>
+    <script src="libraries/SwiperCardEffects.js"></script>
     <script src="libraries/AOS.js"></script>
 </body>
 </html>

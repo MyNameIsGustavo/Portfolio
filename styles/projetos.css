@@ -1,0 +1,39 @@
+.titulo-projeto{
+    text-align: center;
+}
+
+.swiper{
+    margin: 1em 0 0 0;
+}
+
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide img{
+    border-radius: 15px;
+}
+
+.descricao-swiper{
+    text-align: center;
+}
+
+.descricao-projeto{
+    text-align: justify;
+}
+
+@media screen and (min-width: 1080px) {
+    .swiper{
+        width: 35vw;
+        height: 35vh;
+    }
+    .descricao-projeto{
+        text-align: center;
+    }
+    .botao-projetos{
+        display: flex;
+        justify-content: center;
+        margin: 1em auto 0 auto;
+    }
+}
