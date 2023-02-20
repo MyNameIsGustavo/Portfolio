@@ -1,6 +1,7 @@
 @import url("styles/home.css");
 @import url("styles/apresentacao.css");
 @import url("styles/projetos.css");
+@import url("styles/estudando.css");
 :root{
     /*Cores de fundo*/
     --corDeFundoDarkMode: #0A192F;

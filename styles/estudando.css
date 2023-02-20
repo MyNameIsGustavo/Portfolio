@@ -1,0 +1,9 @@
+.descricao-study{
+    text-align: center;
+}
+
+.item-lista{
+    color: white;
+    margin: 0 0 1em 1em;
+    list-style-type: circle;
+}
